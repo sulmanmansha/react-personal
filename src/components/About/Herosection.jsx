@@ -19,7 +19,7 @@ const Herosection = () => {
         </p>
       </div>
       <div className="hero-img">
-        <img src="/assets/images/hero-img.png" alt="UI/UX" />
+        <img src="/assets/images/man.jfif" alt="UI/UX" />
       </div>
     </section>
   );
