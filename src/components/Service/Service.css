@@ -1,0 +1,129 @@
+.service-s {
+  padding: 80px 5%;
+  background: linear-gradient(135deg, rgb(98, 150, 248), rgb(230, 201, 196));
+  text-align: center;
+}
+
+.service-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.service-heading {
+  font-size: 42px;
+  color: #1d3557;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.service-subtitle {
+  font-size: 20px;
+  color: #6c757d;
+  margin-bottom: 50px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.service-card {
+  background: rgb(255, 255, 255);
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.05);
+  max-width: 320px;
+  flex: 1 1 300px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.08);
+}
+
+.service-card img {
+  width: 50px;
+}
+
+.service-card h3 {
+  font-size: 24px;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  font-size: 16px;
+  color: #495057;
+  line-height: 1.6;
+}
+
+.service-features {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.features-heading {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.features-list li {
+  font-size: 16px;
+  margin: 10px 0;
+  text-align: left;
+  position: relative;
+  padding-left: 25px;
+}
+
+.features-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: green;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .service-heading {
+    font-size: 34px;
+  }
+
+  .service-subtitle {
+    font-size: 18px;
+  }
+
+  .service-card h3 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-card {
+    padding: 25px;
+  }
+
+  .service-card h3 {
+    font-size: 20px;
+  }
+
+  .service-card p {
+    font-size: 14px;
+  }
+}

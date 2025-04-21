@@ -1,0 +1,139 @@
+.hero-uiux {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 5%;
+  background: linear-gradient(to right, #cce5ff, #e6f0ff);
+
+}
+
+.hero-left {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.hero-left h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.hero-left p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.primary-btn {
+  padding: 12px 30px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  padding: 12px 30px;
+  background-color: transparent;
+  color: #007bff;
+  border: 2px solid #007bff;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero-right {
+  flex: 1;
+  text-align: right;
+}
+
+.hero-right img {
+  width: 100%;
+  height: auto;
+}
+/* Slidersection.css */
+/* General Section Layout */
+.slider-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 500px;
+  background-color: #607988;
+  overflow: hidden;
+}
+
+/* Left Section (Text) */
+.slider-text {
+  flex: 1;
+  color: #fff;
+  padding: 70px;
+  z-index: 10;
+}
+
+.slider-text h1 {
+  font-size: 2.5rem;
+}
+
+.slider-text p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-top: 15px;
+}
+
+.slider-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.slider-nav-btn {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 2rem;
+  z-index: 20;
+}
+
+.slider-nav-btn:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.slider-image {
+  flex: 1;
+  position: relative;
+}
+
+.slider-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Navigation Button Styles */
+.slider-nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider-nav-btn:first-child {
+  left: 10px;
+}
+
+.slider-nav-btn:last-child {
+  right: 10px;
+}
+.build {
+  color: black;
+}
