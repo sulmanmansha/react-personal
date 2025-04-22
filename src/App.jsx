@@ -5,7 +5,7 @@ import Header from "./layout/Header";
 import About from "./components/About"; // Landing page
 import Home from "./components/Home/index"; // Home page
 import Contact from "./components/Contact/index"; // Capital 'C'
-import Service  from "./components/Service/index"
+import Service from "./components/Service/index";
 import Footer from "./layout/Footer";
 
 function App() {
@@ -14,11 +14,10 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<About />} /> {/* Landing page */}
-        <Route path="/home" element={<Home />} /> {/* Home page */}
+        <Route path="/" element={<About />} />
+        <Route path="/home" element={<Home />} /> 
         <Route path="/Service" element={<Service />} />
-        <Route path="/Contact" element={<Contact />} /> {/* Contact page */}
-
+        <Route path="/Contact" element={<Contact />} /> 
       </Routes>
 
       <Footer />

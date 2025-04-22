@@ -1,9 +1,11 @@
 import React from "react";
 const Herosection = () => {
+
+  let name =" machine"
   return (
     <section id="home" className="hero-uiux">
       <div className="hero-text">
-        <h1>Design Meets Innovation</h1>
+        <h1>Design Meets Innovation {name}</h1>
         <p>
           Crafting beautiful user experiences that inspire and engage. Let’s
           build something amazing together.

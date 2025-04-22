@@ -1,7 +1,7 @@
-  body{
-    font-family: "Roboto";
-  }
-  .hero-uiux {
+body {
+  font-family: "Roboto";
+}
+.hero-uiux {
   display: flex;
   justify-content: space-between;
   padding: 80px 60px;
@@ -53,7 +53,7 @@
 /* card-section */
 .card-section {
   padding: 10px 60px 80px 80px;
-  background-color: #7b828a;;
+  background-color: #7b828a;
   text-align: center;
 }
 
@@ -99,4 +99,34 @@
   font-size: 16px;
   color: #4b5563;
   line-height: 1.5;
+}
+
+@media (max-width: 425px) {
+  .hero-uiux {
+    padding: 0px 30px;
+  }
+  .hero-text h1 {
+    font-size: 25px;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  .hero-text p {
+    font-size: 15px;
+    margin-bottom: 35px;
+    margin-top: 22px;
+  }
+  .hero-btn {
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+  .card-section {
+    padding: 10px 30px 60px 30px;
+  }
+  .card-heading {
+    font-size: 29px;
+    margin-bottom: 20px;
+  }
+  .card img {
+    margin-bottom: 0px;
+  }
 }

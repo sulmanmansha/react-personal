@@ -1,7 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
- .main-header {
+.main-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,7 +27,6 @@ html {
 .nav-links a:hover {
   color: #00bcd4;
 }
-
 
 .footer {
   background: #0d0d0d;
@@ -105,6 +104,13 @@ html {
   font-size: 14px;
   color: #888;
 }
-.footer-logo{
+.footer-logo {
   border-radius: 100%;
+}
+
+@media (max-width: 425px) {
+  .main-header {
+    flex-direction: column;
+    gap: 10px;
+  }
 }

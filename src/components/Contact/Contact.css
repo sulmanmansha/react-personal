@@ -33,7 +33,6 @@
 .contact-left p {
   color: #555;
   margin-bottom: 30px;
-  max-width: 400px;
   line-height: 1.6;
   text-align: center;
 }
@@ -100,7 +99,7 @@
   .contact-left,
   .contact-right {
     flex: 1;
-    min-width: 40%; /* Keep sections side by side */
+    min-width: 40%
   }
 }
 
@@ -117,20 +116,17 @@
   }
 
   .contact-left h2 {
-    font-size: 30px; /* Adjust heading size */
+    font-size: 30px; 
   }
 
   .contact-left p {
-    font-size: 16px; /* Adjust paragraph size */
-    max-width: 100%;
+    font-size: 16px;
   }
 
   .contact-right {
     padding: 25px 55px 25px 25px;
   }
 }
-
-/* Media Query for 768px to 500px */
 @media (max-width: 768px) {
   .contact-left h2 {
     font-size: 28px;
@@ -138,7 +134,7 @@
 
   .contact-form-uiux input,
   .contact-form-uiux textarea {
-    padding: 12px; /* Smaller padding */
+    padding: 12px;
   }
 
   .contact-form-uiux button {
@@ -146,7 +142,6 @@
   }
 }
 
-/* Media Query for 500px to 320px */
 @media (max-width: 500px) {
   .contact-left h2 {
     font-size: 24px;
@@ -163,6 +158,9 @@
 
   .contact-uiux {
     padding: 40px 10px;
+  }
+  .contact-right {
+    padding: 25px 45px 25px 25px;
   }
 }
 

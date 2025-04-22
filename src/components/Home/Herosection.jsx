@@ -1,7 +1,7 @@
 import React from 'react';
 const HeroSection = () => {
   return (
-    <section className="hero-uiux">
+    <section className="hero-uiu">
       <div className="hero-left">
         <h1>Build, Launch & Grow with Confidence</h1>
         <p>We help brands turn their vision into digital reality with clean design and smart technology.</p>

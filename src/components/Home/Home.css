@@ -1,10 +1,9 @@
-.hero-uiux {
+.hero-uiu {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 80px 5%;
   background: linear-gradient(to right, #cce5ff, #e6f0ff);
-
 }
 
 .hero-left {
@@ -136,4 +135,56 @@
 }
 .build {
   color: black;
+}
+
+@media (max-width: 768px) {
+  .hero-right img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    padding-top: 36px;
+  }
+
+  .hero-uiu {
+    display: block;
+    padding: 10px 3%;
+  }
+  .slider-text {
+    padding: 8px 60px;
+  }
+  .slider-text h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .slider-section {
+    height: auto;
+  }
+  .slider-text h1 {
+    font-size: 14px;
+  }
+  .slider-nav-btn {
+    font-size: 1rem;
+  }
+  .hero-left h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #222;
+  }
+  .hero-left p {
+    font-size: 15px;
+  }
+  .secondary-btn {
+    padding: 8px 12px;
+    font-weight: normal;
+  }
+  .primary-btn {
+    padding: 10px 14px;
+    font-weight: normal;
+  }
+  .footer-logo img {
+    width: 60px;
+    margin-bottom: 0px;
+}
 }
